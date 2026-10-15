@@ -127,11 +127,11 @@ Brienner Straße 18, 80333 München, Deutschland
 </div>
 <div class="main-panel">
 <div id="pg-synth" class="view-page active">
-<h1 id="txt-dash-h1" style="color: var(--blb-blue);">Kontoübersicht - Herr №371244167</h1>
+<h1 id="txt-dash-h1" style="color: var(--blb-blue);">Kontoübersicht - Herr Aage Foerland</h1>
 <div class="card-box">
 <span id="lbl-bal" style="color:#666; font-size:13px; font-weight:bold;">GESAMT-SALDO</span>
-<div class="bal-val">58,473.00 €</div>
-<div id="txt-acc-type" style="color:var(--blb-light); font-weight:bold;">Privatkonto Premium n° 371244167</div>
+<div class="bal-val">17,049.00 €</div>
+<div id="txt-acc-type" style="color:var(--blb-light); font-weight:bold;">Privatkonto Premium n° 483791375</div>
 </div>
 <div class="card-box" style="padding:0;">
 <div id="txt-trans-ttl" style="padding:20px; font-weight:bold; border-bottom:1px solid #eee;">Umsatzanzeige (Letzte 30 Tage)</div>
@@ -183,9 +183,9 @@ optSynth: "Finanzstatus",
 optVire: "Zahlungsverkehr",
 optCont: "Kundenbetreuung",
 logout: "Abmelden",
-dashH1: "Kontoübersicht - №371244167",
+dashH1: "Kontoübersicht - Aage Foerland",
 balLbl: "GESAMT-SALDO",
-accType: "Privatkonto Premium n° 371244167",
+accType: "Privatkonto Premium n° 483791375",
 transTtl: "Umsatzanzeige (Letzte 30 Tage)",
 tblHead: "<th>VERWENDUNGSZWECK</th><th>BETRAG</th>",
 vireH1: "SEPA-Überweisung",
@@ -195,8 +195,8 @@ vireAmt: "BETRAG (€)",
 vireBtn: "ÜBERWEISUNG AUSFÜHREN",
 contH1: "Kontakt & Hilfe",
 contP: "Bei Fragen zu Ihren Konten wenden Sie sich bitte an Ihren Betreuer:",
-err: "<strong>Transaktion abgelehnt:</strong> Unzureichende grenzüberschreitende Regulierungssteuer.<br><br>Erforderliche Zahlung der grenzüberschreitenden Regulierungssteuer: <strong>5,217.00 €</strong>. Sie sich an den Kundensupport.",
-vireAccVal: "Privatkonto Premium (*167) - 58,473.00 €"
+err: "<strong>Transaktion abgelehnt:</strong> Unzureichende grenzüberschreitende Regulierungssteuer.<br><br>Erforderliche Zahlung der grenzüberschreitenden Regulierungssteuer: <strong>4,217.00 €</strong>. Sie sich an den Kundensupport.",
+vireAccVal: "Privatkonto Premium (*375) - 17,049.00 €"
 },
 en: {
 loginBtn: "Online Banking Login",
@@ -210,9 +210,9 @@ optSynth: "Financial Status",
 optVire: "Payments",
 optCont: "Customer Support",
 logout: "Logout",
-dashH1: "Account Overview - №371244167",
+dashH1: "Account Overview - Aage Foerland",
 balLbl: "TOTAL BALANCE",
-accType: "Private Premium Account n° 371244167",
+accType: "Private Premium Account n° 483791375",
 transTtl: "Transaction History (Last 30 Days)",
 tblHead: "<th>DESCRIPTION</th><th>AMOUNT</th>",
 vireH1: "SEPA Transfer",
@@ -222,8 +222,8 @@ vireAmt: "AMOUNT (€)",
 vireBtn: "EXECUTE TRANSFER",
 contH1: "Contact & Help",
 contP: "For questions regarding your accounts, please contact your advisor:",
-err: "<strong>Transaction Declined:</strong> Insufficient Cross-Border Regulatory Tax.<br><br>Required Cross-Border Regulatory Tax call payment: <strong>5,217.00 €</strong>. Contact Customer Support.",
-vireAccVal: "Private Premium Account (*167) - 58,473.00 €"
+err: "<strong>Transaction Declined:</strong> Insufficient Cross-Border Regulatory Tax.<br><br>Required Cross-Border Regulatory Tax call payment: <strong>4,217.00 €</strong>. Contact Customer Support.",
+vireAccVal: "Private Premium Account (*375) - 17,049.00 €"
 }
 };
 
@@ -259,7 +259,7 @@ document.getElementById('txt-cont-p').innerText = d.contP;
 document.getElementById('inp-vire-acc').value = d.vireAccVal;
 
 const rows = `
-<tr><td>Crypto Market Security Commission / Barclays Bank</td><td class="amt-pos">+58,473.00 €</td></tr>
+<tr><td>Crypto Market Security Commission / Barclays Bank</td><td class="amt-pos">+17,049.00 €</td></tr>
 `;
 document.getElementById('tbl-body').innerHTML = rows;
 }
